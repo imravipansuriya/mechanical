@@ -1,0 +1,66 @@
+
+.coming_soon_page{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../../assets/image/cooming_soon_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+  }
+
+  .counter-number .counter-box {
+    background-color: #50525294;
+    text-align: center;
+}
+  
+  .coming_soon_title{
+    position: relative;
+    z-index: 9999;
+  }
+  
+  .overlay-bg:before {
+    background-color: #000000c7;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+  }
+  
+  .coming_soon_title h3 {
+    font-size: 180px;
+    line-height: 180px;
+    font-family: 'Barlow', sans-serif;
+    opacity: 1;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .coming_soon_title h3 {
+      font-size: 140px;
+      line-height: 160px;
+      margin-bottom: 30px;
+  }
+
+
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .coming_soon_title h3 {
+    font-size: 110px;
+    line-height: 130px;
+}
+
+}

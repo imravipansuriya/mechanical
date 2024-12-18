@@ -1,0 +1,27 @@
+.timer-text {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+}
+
+.counter-number h1 {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  opacity: 1;
+  text-align: center;
+  font-weight: 600;
+}
+
+.counter-number .counter-box {
+    background-color: #50525294;
+}
+
+.container h2 {
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+    
+}
+.container p {
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+}

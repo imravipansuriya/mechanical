@@ -1,0 +1,125 @@
+
+
+.testimonial_info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial_info h6 {
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  color: #fff;
+  position: relative;
+}
+
+/* .testimonial_info h6::before {
+      content: "";
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      right: 0;
+      height: 8px;
+      width: 108px;
+      background-color: #d3071f;
+      z-index: 0;
+    } */
+
+.testimonial_info h4 {
+  font-family: "Syne", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.slide_image_wrp:hover .member_details {
+  background-color: #d3071f;
+}
+
+.slide_image_wrp:hover .member_details .person_name {
+  transform: translateX(10px);
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+.slide_image_wrp:hover .member_details .person_name p,
+.slide_image_wrp:hover .member_details .person_name h5 a {
+  color: #fff;
+}
+
+.team_wrp .slick-slide {
+  width: auto !important;
+  margin-right: 12px;
+}
+
+.team_wrp .slick-arrow {
+  /* display: none !important; */
+}
+
+.slider_details img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 70px;
+  transition: all 0.5s;
+}
+
+.team_wrp .slider_details {
+  width: 362px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.member_details {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  bottom: 50px;
+  z-index: 2;
+  background-color: #fff;
+  padding: 25px 20px;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: auto;
+}
+
+.person_name h5 a {
+  color: #101010;
+  font-family: "Syne", sans-serif;
+  text-decoration: none;
+}
+
+.person_name p {
+  font-size: 16px;
+  color: #777;
+  text-transform: none;
+  font-weight: 400;
+  font-family: "Syne", sans-serif;
+  margin-bottom: 0;
+}
+
+.arrow_datalist {
+  position: relative;
+  display: block;
+  top: 0px;
+  transform: translateY(-66%);
+  transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.slick-track:before,
+.slick-track::after {
+  display: none;
+}
+::after, ::before{
+  box-sizing: inherit;
+}

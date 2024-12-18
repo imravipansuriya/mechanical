@@ -1,0 +1,198 @@
+/* about us */
+.about_us {
+  background-color: #101010;
+  padding: 120px 0;
+}
+
+.about_us .about_one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.about_us .about_one {
+  width: 336px;
+  height: 336px;
+}
+
+.about_us .about_wrp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.about_us .about_wrp {
+  width: 406px;
+  height: 406px;
+  position: absolute;
+  top: 101px;
+  left: 134px;
+  border: 8px solid #101010;
+  border-radius: 15px;
+}
+
+.about_info {
+  position: relative;
+}
+
+.about_details h6 {
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  color: #fff;
+}
+
+.about_details h4 {
+  font-family: "Syne", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 15px 0;
+}
+
+.about_details h4 span {
+  color: #d3071f;
+}
+
+.about_details p {
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999;
+  margin: 0 0 30px 0;
+}
+
+.offer_details ul {
+  padding-left: 0;
+}
+
+.offer_details ul li {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.offer_details ul li svg {
+  color: #d3071f;
+}
+
+.offer_details ul li a {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.certificate_wrp {
+  text-align: center;
+  padding: 25px 20px;
+  background: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  bottom: -27px;
+  left: 50px;
+}
+
+.certificate_wrp .certificate_info {
+  background-color: #d3071f;
+  width: 55px;
+  height: 55px;
+  padding: 12px;
+  color: #fff;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+}
+
+.certificate_wrp .certificate_info svg {
+  font-size: 35px;
+}
+
+.certificate_wrp h6 {
+  font-family: "Syne", sans-serif;
+  font-size: 24px;
+  color: #101010;
+  margin-bottom: 0;
+}
+
+.certificate_wrp p {
+  color: #777;
+  font-family: "Syne", sans-serif;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.more_btn {
+  display: inline-block;
+  height: auto;
+  padding: 10px 22px;
+  border: 2px solid #d3071f;
+  background-color: #d3071f;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-size: 14px;
+  transition: border-color 300ms ease, transform 300ms ease,
+    background-color 300ms ease, color 300ms ease;
+  transform-style: preserve-3d;
+  border-radius: 5px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.more_btn:hover {
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #101010;
+  transform: translate3d(0px, -6px, 0.01px);
+}
+
+@media only screen and (max-width: 1199px) {
+ 
+  .about_us .about_one {
+    width: 80%;
+    height: auto;
+}
+
+.about_us .about_wrp {
+  top: 173px;
+  left: 50px;
+  width: 80%;
+  filter: grayscale(90%);
+  height: auto;
+}
+}
+
+@media only screen and (max-width: 991px) {
+ 
+  .about_us .about_wrp {
+    top: 184px;
+    left: 130px;
+}
+
+.about_details {
+  margin-top: 284px;
+}
+
+.about_details h4 {
+  font-size: 32px;
+}
+
+.about_details p{
+  color: #999;
+}
+}

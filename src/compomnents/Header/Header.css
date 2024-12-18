@@ -1,0 +1,101 @@
+.header_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header_wrp {
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+.contact_details {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.logo_wrp img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo_wrp {
+  width: 170px;
+}
+
+.header_menulist .navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  justify-content: end;
+  margin-right: 20px;
+}
+
+.navbar-nav a {
+  color: #101010;
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+.navbar-nav a:hover {
+  color: #d3071f;
+}
+
+.contact_details .call_data {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  background-color: #d3071f;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.contact_details .call_data:hover {
+  background-color: #fff;
+  color: #d3071f;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.help_data p {
+  color: #101010;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 4px;
+}
+
+.help_data h5 a {
+  color: #101010;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 500ms ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.help_data h5 a:hover {
+  color: #d3071f;
+}
+
+@media (max-width: 1199px) {
+  .contact_details {
+    display: none;
+  }
+}
