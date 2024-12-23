@@ -8,7 +8,6 @@ import teamsix from "../../assets/image/team6.jpg";
 import { Container } from "react-bootstrap";
 import "./Team.css";
 import Slider from "react-slick";
-import { FaQuoteLeft } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 
 function Team() {
@@ -30,7 +29,7 @@ function Team() {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 991,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -38,10 +37,19 @@ function Team() {
         },
       },
       {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
     ],
@@ -54,7 +62,7 @@ function Team() {
             <h6>Certified Team</h6>
             <h4>Our Experts Team</h4>
           </div>
-          <div className="testimonial_image_wrp team_wrp">
+          <div className="testimonial_image_wrp">
             <div className="slider-container">
               <div className="slider_datalist">
                 <Slider {...settings}>
@@ -91,7 +99,7 @@ function Team() {
                       </div>
 
                       <div className="arrow_datalist">
-                        <GoArrowUpRight />
+                        <GoArrowUpRight/>
                       </div>
                     </div>
                   </div>

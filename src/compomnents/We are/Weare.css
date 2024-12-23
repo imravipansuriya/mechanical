@@ -1,0 +1,22 @@
+ .Weare{
+  padding: 100px 0 ;
+  background-color: #101010;
+ }
+
+
+@media only screen and (max-width: 768px) {
+ 
+}
+
+.Weare .booking_details {
+  padding: 45px 60px 60px 60px;
+}
+.Weare .process_card, .Weare .booking_details {
+  background-color: transparent !important;
+}
+ .Weare .booking_details:hover{
+  background-color: #d3071f !important;
+}
+.Weare .booking_info h5{
+  color: #fff;
+}

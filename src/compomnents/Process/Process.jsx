@@ -15,7 +15,7 @@ function Process() {
         </div>
         <Container>
           <Row>
-            <Col lg="3" Col md="12" Col sm="12"  >
+            <Col lg={3}  md={12}  sm={12}>
               <div className="booking_details process_card">
                 <BsTicketDetailed />
                 <div className="booking_info">
@@ -27,7 +27,7 @@ function Process() {
               </div>
             </Col>
 
-            <Col lg="3" Col md="12" Col sm="12">
+            <Col lg={3}  md={12}  sm={12}>
               <div className="booking_details">
                 <FaCarSide />
                 <div className="booking_info">
@@ -39,7 +39,7 @@ function Process() {
               </div>
             </Col>
 
-            <Col lg="3" Col md="12" Col sm="12">
+            <Col lg={3}  md={12}  sm={12}>
               <div className="booking_details">
                 <FaCarOn />
                 <div className="booking_info">
@@ -51,7 +51,7 @@ function Process() {
               </div>
             </Col>
 
-            <Col lg="3" Col md="12" Col sm="12">
+            <Col lg={3}  md={12}  sm={12}>
               <div className="booking_details">
                 <IoPricetag />
                 <div className="booking_info">

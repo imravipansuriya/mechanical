@@ -57,22 +57,6 @@
   /* display: none !important; */
 }
 
-.slider_details img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 70px;
-  transition: all 0.5s;
-}
-
-.team_wrp .slider_details {
-  width: 362px;
-  border-radius: 10px;
-  transition: all 0.5s;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
 .member_details {
   position: relative;
   margin-left: 20px;
@@ -115,11 +99,19 @@
   visibility: hidden;
   opacity: 0;
 }
-
+.slide_image_wrp:hover .arrow_datalist{
+  visibility: visible;
+  opacity: 1;
+  color: #fff;
+}
 .slick-track:before,
 .slick-track::after {
   display: none;
 }
 ::after, ::before{
   box-sizing: inherit;
+}
+.slider_details {
+  border-radius: 10px;
+  overflow: hidden;
 }

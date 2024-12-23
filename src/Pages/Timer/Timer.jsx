@@ -32,7 +32,7 @@ const Timer = () => {
     };
   };
 
-    const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeLeft);
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft);
 
   useEffect(() => {
     const timer = setInterval(() => {

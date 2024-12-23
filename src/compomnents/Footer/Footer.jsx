@@ -2,13 +2,14 @@
 import Container from "react-bootstrap/Container";
 import white from "../../assets/image/white.png";
 import Form from "react-bootstrap/Form";
+import {Col, InputGroup, Row}  from "react-bootstrap";
+ 
+import {IoMailOpenOutline}  from "react-icons/io5";
+import {TbMapPin2}  from "react-icons/tb";
+import {FaFacebookF, FaWhatsapp}  from "react-icons/fa6";
+import {TfiYoutube}  from "react-icons/tfi";
 import "./Footer.css";
-import { Col, InputGroup, Row } from "react-bootstrap";
 import { FiPhoneCall } from "react-icons/fi";
-import { IoMailOpenOutline } from "react-icons/io5";
-import { TbMapPin2 } from "react-icons/tb";
-import { FaFacebookF, FaWhatsapp } from "react-icons/fa6";
-import { TfiYoutube } from "react-icons/tfi";
 
 const  Footer = ()=> {
   return (
@@ -61,7 +62,7 @@ const  Footer = ()=> {
 
           <div className="second_footer_menu">
             <Row>
-              <Col lg="4" Col md="4">
+              <Col lg="4"  md="6">
                 <div className="footer_menu">
                   <div className="footer_logo_wrp">
                     <a href="#">
@@ -100,7 +101,7 @@ const  Footer = ()=> {
                 </div>
               </Col>
 
-              <Col lg="4" Col md="4">
+              <Col lg="4"  md="6">
                 <div className="link_wrp quick_link-wrap">
                   <h3>Quick Links</h3>
 
@@ -124,7 +125,7 @@ const  Footer = ()=> {
                 </div>
               </Col>
 
-              <Col lg="4" Col md="4">
+              <Col lg="4"  md="6">
                 <div className="footer_menu">
                   <div className="link_wrp">
                     <h3>Subscribe</h3>

@@ -124,7 +124,7 @@ export default function Home() {
                         <div className="form_details">
                           <Row>
                             <Col lg="6">
-                              <Form.Group controlId="datePicker">
+                              <Form.Group controlId="datePicker" className="mb-3">
                                 <Form.Control
                                   className="form_input date_list"
                                   type="date"
@@ -230,10 +230,7 @@ export default function Home() {
             </Row>
           </Container>
         </div>
-
-        <Footer />
-        <Commingsoon />
-        
+        <Footer />       
       </div>
     </>
   );
